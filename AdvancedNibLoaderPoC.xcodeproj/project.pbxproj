@@ -13,6 +13,8 @@
 		9D50CF841B304B5700D37288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D50CF831B304B5700D37288 /* Images.xcassets */; };
 		9D50CF871B304B5700D37288 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D50CF851B304B5700D37288 /* LaunchScreen.xib */; };
 		9D50CF931B304B5700D37288 /* AdvancedNibLoaderPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50CF921B304B5700D37288 /* AdvancedNibLoaderPoCTests.swift */; };
+		9D50CF9D1B304B8100D37288 /* NibbableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D50CF9C1B304B8100D37288 /* NibbableView.swift */; };
+		9D50CF9F1B304B9100D37288 /* NibbableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D50CF9E1B304B9100D37288 /* NibbableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9D50CF8C1B304B5700D37288 /* AdvancedNibLoaderPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedNibLoaderPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D50CF911B304B5700D37288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D50CF921B304B5700D37288 /* AdvancedNibLoaderPoCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedNibLoaderPoCTests.swift; sourceTree = "<group>"; };
+		9D50CF9C1B304B8100D37288 /* NibbableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibbableView.swift; sourceTree = "<group>"; };
+		9D50CF9E1B304B9100D37288 /* NibbableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibbableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				9D50CF831B304B5700D37288 /* Images.xcassets */,
 				9D50CF851B304B5700D37288 /* LaunchScreen.xib */,
 				9D50CF7A1B304B5700D37288 /* Supporting Files */,
+				9D50CF9C1B304B8100D37288 /* NibbableView.swift */,
+				9D50CF9E1B304B9100D37288 /* NibbableView.xib */,
 			);
 			path = AdvancedNibLoaderPoC;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				9D50CF821B304B5700D37288 /* Main.storyboard in Resources */,
 				9D50CF871B304B5700D37288 /* LaunchScreen.xib in Resources */,
 				9D50CF841B304B5700D37288 /* Images.xcassets in Resources */,
+				9D50CF9F1B304B9100D37288 /* NibbableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D50CF7F1B304B5700D37288 /* ViewController.swift in Sources */,
+				9D50CF9D1B304B8100D37288 /* NibbableView.swift in Sources */,
 				9D50CF7D1B304B5700D37288 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
